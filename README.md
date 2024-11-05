@@ -1,5 +1,4 @@
 # MODEL Text-Guided-RGBP-grasp-Generation-simulation
-[[paper](https://drive.google.com/file/d/1Y7muh4Q74-IHvj3ZB42fAkvdi6XuVkkY/view?usp=sharing)]
 [[dataset_visual](https://graspnet.net/)]
 [[dataset_text](https://drive.google.com/file/d/1AtoURfvkvyOg2I3drIEPsFYUtH7mKCTc/view?usp=sharing)]
 
