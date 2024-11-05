@@ -3,7 +3,7 @@
 [[dataset_visual](https://graspnet.net/)]
 [[dataset_text](https://drive.google.com/file/d/1AtoURfvkvyOg2I3drIEPsFYUtH7mKCTc/view?usp=sharing)]
 
-![teaser](model_.png)
+![teaser](model.png)
 
 ## Demo
 ![Sample video for Text-Guided-RGBD-grasp-Generation-simulation](https://github.com/Thiep1808/Text-Guided-RGBD-grasp-Generation-simulation/blob/main/result.gif)
