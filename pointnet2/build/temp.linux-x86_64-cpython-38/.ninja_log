@@ -1,0 +1,12 @@
+# ninja log v5
+2	19856	1719649082639037354	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate_gpu.o	158a3f6227662fec
+1	20244	1719649083031039048	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query_gpu.o	c9a6509977fafa90
+2	20691	1719649083475040963	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points_gpu.o	ec7af440b47aa647
+1	20696	1719649083423040739	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate.o	1ece3f2425785306
+0	21012	1719649083727042050	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query.o	80d9cd8ea009d1d1
+1	21057	1719649083771042240	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points.o	d310b6e059bc8a5b
+2	21702	1719649084483045311	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling_gpu.o	631db5594290ad6a
+1	22396	1719649085143048158	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/bindings.o	9e074d000bdb6e6f
+0	22439	1719649085227048519	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query_gpu.o	5036752b708bcf04
+2	23166	1719649085927051536	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling.o	2de3785dd397ec0e
+1	23714	1719649086471053880	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query.o	44fdb09ce95536ad

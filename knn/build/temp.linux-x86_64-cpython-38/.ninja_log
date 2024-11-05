@@ -1,0 +1,4 @@
+# ninja log v5
+1	930	1719649111355160457	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/build/temp.linux-x86_64-cpython-38/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/src/cuda/knn.o	e322214330b3085b
+0	9424	1719649119815196407	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/build/temp.linux-x86_64-cpython-38/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/src/cpu/knn_cpu.o	d1ea687c77fe3203
+1	10061	1719649120451199104	/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/build/temp.linux-x86_64-cpython-38/home/tanpx/PycharmProjects/pythonProject/DepthEstGrasp-master/knn/src/vision.o	12b16dd06569a79e
