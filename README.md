@@ -76,6 +76,6 @@ python demo.py
     <img src="https://github.com/Thiep1808/Text-Guided-RGBP-grasp-Generation/blob/main/demo.png", width="480", alt="demo_result" />
 </div>
 
-Refer to (https://github.com/Thiep1808/Text-Guided-RGBP-grasp-Generation/tree/main/doc) for data preparation. RGB-P images and camera intrinsics are required for inference. The factor_depth parameter stands for the scale for depth values to be transformed into meters. You can also add a workspace mask for denser output.
+RGB-P images and camera intrinsics are required for inference. The factor_depth parameter stands for the scale for depth values to be transformed into meters. You can also add a workspace mask for denser output.
 
 
