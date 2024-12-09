@@ -77,4 +77,31 @@ python demo.py
 
 Refer to (https://github.com/Thiep1808/Text-Guided-RGBP-grasp-Generation/tree/main/doc) for data preparation. RGB-P images and camera intrinsics are required for inference. The factor_depth parameter stands for the scale for depth values to be transformed into meters. You can also add a workspace mask for denser output.
 
+## Note:
+If you encounter the following error:
+ImportError: libcudart.so.12: cannot open shared object file: No such file or directory,
+please follow these steps to resolve it:
+
+Steps to Fix:
+Set the CUDA library path in environment variables
+Replace xx.x with your installed CUDA version (e.g., 11.8 or 12.0):
+```
+bash
+export PATH=/usr/local/cuda-xx.x/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-xx.x/lib64:$LD_LIBRARY_PATH
+```
+Navigate to the project directory
+For example, if the error occurs in pointnet2, use the following commands:
+```
+bash
+cd pointnet2
+rm -rf build/ pointnet2/_ext.cpython*
+```
+Rebuild the _ext module
+Run the setup script to recompile the extensions:
+```
+bash
+python setup.py install
+```
+
 
