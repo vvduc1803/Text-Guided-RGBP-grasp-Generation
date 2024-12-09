@@ -11,7 +11,7 @@ sys.path.append(os.path.join(ROOT_DIR, 'utils'))
 from data_utils import compute_point_dists
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--dataset_root', default='/home/tanpx/PycharmProjects/pythonProject/data')
+parser.add_argument('--dataset_root', default='')
 parser.add_argument('--pos_ratio_thresh', type=float, default=0.8, help='Threshold of positive neighbor ratio[default: 0.8]')
 parser.add_argument('--mu_thresh', type=float, default=0.55, help='Threshold of friction coefficient[default: 0.55]')
 parser.add_argument('--num_workers', type=int, default=50, help='Worker number[default: 50]')
