@@ -86,21 +86,18 @@ Steps to Fix:
 Set the CUDA library path in environment variables
 Replace xx.x with your installed CUDA version (e.g., 11.8 or 12.0):
 ```
-bash
 export PATH=/usr/local/cuda-xx.x/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda-xx.x/lib64:$LD_LIBRARY_PATH
 ```
 Navigate to the project directory
 For example, if the error occurs in pointnet2, use the following commands:
 ```
-bash
 cd pointnet2
 rm -rf build/ pointnet2/_ext.cpython*
 ```
 Rebuild the _ext module
 Run the setup script to recompile the extensions:
 ```
-bash
 python setup.py install
 ```
 
