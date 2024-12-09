@@ -49,7 +49,7 @@ class Text2GraspDataset(Dataset):
         self.sceneIds = ['{}'.format(str(x).zfill(4)) for x in self.sceneIds]
         self.vocab = Vocabulary(freq_threshold)
         self.vocab.read_vocab(f'{root}/text_data/vocab.json')
-        text_path = open(f'{root}/text_data/my_data.json', 'r')
+        text_path = open(f'{root}/text_data/data.json', 'r')
         self.text_data = json.load(text_path)
 
         self.frameid = []
@@ -412,7 +412,7 @@ class Vocabulary:
 
 
 if __name__ == "__main__":
-    root = '/home/tanpx/PycharmProjects/pythonProject/data'
+    root = ''
     train_dataset = Text2GraspDataset(root,0, 10, split='train', remove_outlier=True,
                                      remove_invisible=True, num_points=20000)
 
